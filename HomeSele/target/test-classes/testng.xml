@@ -1,0 +1,8 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test suite" verbose="1" thread-count="1" parallel="tests">
+	<test name="Regression">
+		<classes>
+			<class name="com.home.proj.HomeSele.APIClass" />
+		</classes>
+	</test>
+</suite>
